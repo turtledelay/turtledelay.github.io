@@ -22,7 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #45b649;
+  background-color: #E2412C;
 }
 
 ul {
@@ -30,7 +30,7 @@ ul {
 }
 
 :root {
-  --gradient: linear-gradient(to right, #c5e35b, #45b649);
+  --gradient: linear-gradient(to right, #c7918a, #E2412C);
 }
 
 .gradient {
@@ -50,8 +50,8 @@ button {
           align-items: center;
   border: solid 4px transparent;
   cursor: pointer;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(#dce35b), to(#45b649));
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #dce35b, #45b649);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, right top, from(#c7918a), to(#E2412C));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right,#c7918a, #E2412C);
   background-origin: border-box;
   background-clip: content-box, border-box;
   -webkit-box-shadow: 2px 1000px 1px #0b0b0b inset;
@@ -115,8 +115,8 @@ button {
 .design .background {
   height: 10rem;
   width: 12rem;
-  background: -webkit-gradient(linear, left top, right top, from(#c5e35b), to(#45b649));
-  background: linear-gradient(to right, #c5e35b, #45b649);
+  background: -webkit-gradient(linear, left top, right top, from(#c7918a), to(#E2412C));
+  background: linear-gradient(to right,#c7918a, #E2412C);
   position: absolute;
   z-index: -1;
   left: -10px;
