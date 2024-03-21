@@ -15,7 +15,7 @@ button {
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
-    linear-gradient(to right, #dce35b, #45b649);
+    linear-gradient(to right, #c7918a, #E2412C);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #0b0b0b inset;
@@ -39,7 +39,7 @@ button {
   display: flex;
   align-items: center;
   margin: 6rem 0;
-  .coil {
+  .coil {`
     border-top: white dashed 0.01rem;
     width: 49.75%;
   }
